@@ -1,0 +1,19 @@
+{
+  "name": "@szjyp226/eslint-plugin-mine",
+  "version": "1.0.0",
+  "description": "個人用なES LintのRulesパック",
+  "main": "lib/index.js",
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "author": "ksun-fronen",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
