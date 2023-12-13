@@ -13,7 +13,7 @@ npm i eslint --save-dev
 Next, install `eslint-plugin-mine`:
 
 ```sh
-npm install eslint-plugin-mine --save-dev
+npm install @szjyp226/eslint-plugin --save-dev
 ```
 
 ## Usage
@@ -22,27 +22,11 @@ Add `mine` to the plugins section of your `.eslintrc` configuration file. You ca
 
 ```json
 {
-    "plugins": [
-        "mine"
+    "extends": [
+        "plugin:@szjyp226/vue"
     ]
 }
 ```
 
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "mine/rule-name": 2
-    }
-}
-```
-
 ## Rules
-
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
-
 
