@@ -1,4 +1,4 @@
-# eslint-plugin-mine
+# @szjyp226/eslint-plugin
 
 個人用なeslint-config
 
@@ -18,7 +18,7 @@ npm install @szjyp226/eslint-plugin --save-dev
 
 ## Usage
 
-Add `mine` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
