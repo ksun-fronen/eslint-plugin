@@ -1,6 +1,6 @@
 {
   "name": "@szjyp226/eslint-plugin",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "個人用なES LintのRulesパック",
   "main": "lib/index.js",
   "scripts": {
@@ -40,16 +40,18 @@
       "optional": true
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
-    "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-config-ali": "^15.0.1",
     "eslint-plugin-eslint-plugin": "^5.1.1",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-vue": "^9.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
     "prettier": "^3.1.1"
   },
   "publishConfig": {
